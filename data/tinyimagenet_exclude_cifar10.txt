@@ -1,0 +1,40 @@
+# Tiny ImageNet exclusion list for the CIFAR-10 ID task (23 classes).
+# Curated manually against CIFAR-10 classes using WordNet synset names
+# (imagenet_class_index.json + nltk wordnet). One WNID per line.
+# Rule: exclude Tiny ImageNet classes whose synset falls under a CIFAR-10
+# basic-level category (dog, cat, bird, frog) or depicts the same object
+# type (passenger car, truck, boat). Source: tiny-200 wnid list from
+# zh-plus/tiny-imagenet (data/_parquet/tiny_wnids.json); sample counts per
+# class (500 each) recorded in data/tiny-imagenet-200/train/.reconstruction_done.
+# --- dog (6) ---
+n02094433  # Yorkshire terrier
+n02099601  # golden retriever
+n02099712  # Labrador retriever
+n02106662  # German shepherd
+n02113799  # standard poodle
+n08742578  # Chihuahua
+# --- cat, domestic (3) ---
+n02123045  # tabby cat
+n02123394  # Persian cat
+n02124075  # Egyptian cat
+# --- bird (4) ---
+n02002724  # black stork
+n02056570  # king penguin
+n02058221  # albatross
+n07646821  # goose
+# --- frog (2) ---
+n01641577  # bullfrog
+n01644900  # tailed frog
+# --- automobile / passenger car (5) ---
+n03100240  # convertible
+n03670208  # limousine
+n04285008  # sports car
+n02814533  # beach wagon / station wagon
+n03444034  # go-kart
+# --- truck (1) ---
+n03796401  # moving van
+# --- ship / boat (2) ---
+n03662601  # lifeboat
+n03447447  # gondola (boat)
+# Not excluded (no matching tiny-200 class): airplane, horse.
+

@@ -1,0 +1,79 @@
+# Tiny ImageNet exclusion list for the CIFAR-100 ID task (39 classes).
+# Curated manually against the 100 CIFAR-100 class names using WordNet synset
+# names (imagenet_class_index.json + nltk wordnet). One WNID per line.
+# Rule: exclude a tiny-200 class when its synset matches or is a direct
+# instance of a CIFAR-100 category. Borderline non-matches are kept and noted
+# in the milestone report (e.g. bison/lion kept because CIFAR-100 cattle has
+# no such synset; teddy bear kept because CIFAR-100 bear is the animal).
+# --- aquarium_fish (1) ---
+n01443537  # goldfish
+# --- crocodile (crocodilian) (1) ---
+n01698640  # American alligator
+# --- snake (1) ---
+n01742172  # boa constrictor
+# --- spider (2) ---
+n01774384  # black widow
+n01774750  # tarantula
+# --- snail (1) ---
+n01944390  # snail
+# --- lobster (2) ---
+n01983481  # American lobster
+n01984695  # spiny lobster
+# --- bear (1) ---
+n02132136  # brown bear
+# --- ladybug + beetle (1) ---
+n02165456  # ladybug (ladybird beetle)
+# --- butterfly (2) ---
+n02279972  # monarch butterfly
+n02281406  # sulphur butterfly
+# --- cockroach (1) ---
+n02233338  # cockroach
+# --- cattle (1) ---
+n02403003  # ox
+# --- camel (1) ---
+n02437312  # Arabian camel
+# --- chimpanzee (1) ---
+n02481823  # chimpanzee
+# --- elephant (1) ---
+n02504458  # African elephant
+# --- bottle (1) ---
+n02823428  # beer bottle
+# --- train (2) ---
+n02917067  # bullet train
+n03393912  # freight car (railroad)
+# --- computer_keyboard (1) ---
+n03085013  # computer keyboard
+# --- table (2) ---
+n03179701  # desk
+n03201208  # dining table
+# --- lamp (1) ---
+n03637318  # lampshade
+# --- rocket (1) ---
+n04008634  # projectile / missile
+# --- chair (1) ---
+n04099969  # rocking chair
+# --- bus (1) ---
+n04146614  # school bus
+# --- bridge (3) ---
+n04311004  # steel arch bridge
+n04366367  # suspension bridge
+n04532670  # viaduct
+# --- tractor (1) ---
+n04465666  # tractor
+# --- clock (timepiece) (1) ---
+n04328186  # stopwatch
+# --- plate (1) ---
+n07657664  # plate
+# --- sweet_pepper (1) ---
+n07720875  # bell pepper
+# --- bee (1) ---
+n07975909  # bee
+# --- mountain (1) ---
+n09193705  # alp (high mountain)
+# --- sea (coastal ocean scene) (1) ---
+n09428293  # seashore
+# --- mushroom (1) ---
+n13001041  # mushroom
+# --- orange (1) ---
+n14991210  # orange
+

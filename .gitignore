@@ -1,0 +1,16 @@
+# Dataset files and local experiment outputs are not committed.
+data/*
+!data/*.txt
+runs/*
+!runs/results_summary.csv
+!runs/pre2_milestone_report.md
+!runs/figures/
+runs/figures/*
+!runs/figures/*.png
+*.pt
+*.pth
+*.ckpt
+__pycache__/
+.venv/
+REMOTE_CODEX_TASK.txt
+
