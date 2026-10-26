@@ -2,7 +2,7 @@
 
 This is a small course project on out-of-distribution (OOD) detection and selective prediction. It compares standard training with energy-aware fine-tuning on CIFAR-10 and CIFAR-100, using SVHN and DTD for OOD evaluation.
 
-The code includes data preparation, ResNet-18 training, scoring, and evaluation. Current milestone results are in [results_summary.csv](runs/results_summary.csv); experiment details are in [the Pre2 report](runs/pre2_milestone_report.md).
+The code includes data preparation, ResNet-18 training, scoring, and evaluation. Current results are preliminary and not yet satisfactory: performance varies across datasets, with OOD gains on CIFAR-100 but declines on CIFAR-10. See [results_summary.csv](runs/results_summary.csv) and [the Pre2 report](runs/pre2_milestone_report.md).
 
 ## Setup
 
