@@ -8,7 +8,7 @@ Code and reproducible milestone artifacts for our project on OOD detection and s
 - `data/tinyimagenet_exclude_*.txt`: manually curated Tiny ImageNet class exclusion lists for each CIFAR ID task. Dataset binaries are not included.
 - `runs/results_summary.csv`: measured summary metrics for the current milestone.
 - `runs/pre2_milestone_report.md`: detailed project progress and experiment report.
-- `runs/figures/`: figures referenced by the report.
+- The figures referenced by the report remain in AutoDL's `runs/figures/` directory and are not included in this repository.
 
 ## Current results
 
